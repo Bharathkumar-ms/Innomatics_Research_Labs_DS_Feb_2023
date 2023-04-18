@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Regular Expression Results</title>
+  </head>
+  <body>
+    <h1>Regular Expression Results</h1>
+    <p>Matched strings:</p>
+    <ul>
+      {% for matched_string in matched_strings %}
+      <li>{{ matched_string }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
